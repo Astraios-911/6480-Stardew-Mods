@@ -150,6 +150,20 @@
 			}
 		},
 		{
+		  "Action": "Include",
+		  "FromFile": "compat/Mizu.Quail.json",
+		  "When": {
+			"HasMod|contains = Mizu.Quail": true
+		  }
+	    },
+	    {
+	      "Action": "Include",
+	      "FromFile": "compat/Mizu.Turkey.json",
+	      "When": {
+	        "HasMod|contains = Mizu.Turkey": true
+	      }
+	    },
+		{
 			"Action": "Include",
 			"FromFile": "compat/artisanpackaging.json",
 			"When": {
